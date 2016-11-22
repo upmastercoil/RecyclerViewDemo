@@ -8,11 +8,12 @@ public class Book {
     private String title;
     private String content;
     int tmp = 0;
+    int wer = -1;
 
     public Book(String title, String content) {
         this.title = title;
         this.content = content;
-        tmp = 2;
+        tmp = 44;
     }
 
     public String getTitle() {
