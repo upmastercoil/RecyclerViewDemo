@@ -7,10 +7,12 @@ public class Book {
 
     private String title;
     private String content;
+    int tmp = 0;
 
     public Book(String title, String content) {
         this.title = title;
         this.content = content;
+        tmp = 2;
     }
 
     public String getTitle() {
